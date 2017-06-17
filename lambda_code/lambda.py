@@ -21,6 +21,16 @@ menu = {"smoked haddock fish cakes": "There are 155 calories in a 1 cake serving
             "house salad": "There are 40 calories in each serving of the house salad",
             "american style burger": "There are 255 calories in each serving of the american style burger"}   
 
+menu_pay = {"smoked haddock fish cakes": 15,
+            "chicken and mushroom risotto": 20,
+            "mushroom pasta": 15,
+            "roasted salmon fillet": 20,
+            "jumbo hot dog": 11,
+            "premium fresh rib-eye steak": 30,
+            "fajita chicken wings": 11,
+            "house salad": 11,
+            "american style burger": 11}
+
 
 def make_order(table, name, order, remark):
     name = name.replace(' ','%20')
